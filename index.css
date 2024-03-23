@@ -1,0 +1,1203 @@
+@keyframes centerToLeft {
+    0% {
+        transform: translateX(0px);
+    } 41.6% {
+        transform: translateX(0px);
+    } 49.9% {
+        transform: translateX(-2000px);
+    } 91.5% {
+        transform: translateX(-2000px);
+    }
+}
+ 
+@keyframes centerToRight {
+    0% {
+        transform: translateX(0px);
+    } 41.6% {
+        transform: translateX(0px);
+    } 49.9% {
+        transform: translateX(2000px);
+    } 91.5% {
+        transform: translateX(2000px);
+    }
+}
+
+@keyframes helpContainerRevealDown {
+    0% {
+        transform: translateY(0px);
+        opacity: 0%;
+    } 50% {
+        opacity: 50%;
+    } 100% {
+        transform: translateY(1vh);
+        opacity: 100%;
+    }
+}
+
+@keyframes helpContainerRevealUp {
+    0% {
+        transform: translateY(1vh);
+        opacity: 100%;
+    } 100% {
+        transform: translateY(0px);
+        opacity: 0%;
+    }
+}
+
+@keyframes growBottomPageCollapsible {
+    from {
+        height: 40vh
+    } to {
+        height: 135vh;
+    }
+}
+
+@keyframes shrinkBottomPageCollapsible {
+    from {
+        height: 150vh;
+    } to {
+        height: 40vh;
+    }
+}  
+
+@keyframes growTopPageCollapsible {
+    from {
+        height: 0vh;
+    } to {
+        height: 45vh;  /* used for the second banner middle catagories e.g. new & featured etc */
+    }
+}
+
+@keyframes shrinkTopPageCollapsible {
+    from {
+        height: 45vh;
+    } to {
+        height: 0vh ;
+    }
+}
+
+@keyframes growTopPageCollapsbileInnerContainer {
+    from {
+        height: 0vh;
+    } to {
+        height: 32vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsbileInnerContainer {
+    from {
+        height: 32vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleMen {
+    from {
+        height: 0vh;
+    } to {
+        height: 50vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleMen {
+    from {
+        height: 50vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleInnerContainerMen {
+    from {
+        height: 0vh;
+    } to {
+        height: 40vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleInnerContainerMen {
+    from {
+        height: 40vh;
+    } to {
+        height: 0vh;
+    }
+}
+@keyframes growTopPageCollapsibleWomen {
+    from {
+        height: 0vh;
+    } to {
+        height: 55vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleWomen {
+    from {
+        height: 55vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleInnerContainerWomen {
+    from {
+        height: 0vh;
+    } to {
+        height: 45vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleInnerContainerWomen {
+    from {
+        height: 45vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleKids {
+    from {
+        height: 0vh;
+    } to {
+        height: 60vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleKids {
+    from {
+        height: 60vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleInnerContainerKids {
+    from {
+        height: 0vh;
+    } to {
+        height: 50vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleInnerContainerKids {
+    from {
+        height: 50vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleSale {
+    from {
+        height: 0vh;
+    } to {
+        height: 45vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleSale {
+    from {
+        height: 45vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+@keyframes growTopPageCollapsibleInnerContainerSale {
+    from {
+        height: 0vh;
+    } to {
+        height: 35vh;
+    }
+}
+
+@keyframes shrinkTopPageCollapsibleInnerContainerSale {
+    from {
+        height: 35vh;
+    } to {
+        height: 0vh;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0px;
+}
+ 
+#jordanLogo {
+    margin: 0px;
+   height: 3.4vh;
+   opacity: 100%;
+}
+ 
+#jordanLogo:hover {
+    opacity: 0%;
+}
+ 
+#jordanHover {
+    position: absolute;
+    top: 0px;
+    left: 2.7vw;
+    height: 2.9vh;
+    opacity: 0%;
+}
+ 
+#jordanHover:hover {
+    opacity: 100%;
+}
+ 
+#converseLogo {
+    height: 2.5vh;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#converseLogo:hover {
+    opacity: 0%;
+}
+ 
+#converseHoverLogo {
+    position: absolute;
+    height: 3.5vh;
+    left: 4.5vw;
+    opacity: 0%;
+}
+ 
+#converseHoverLogo:hover {
+    opacity: 100%;
+}
+ 
+#logoAnchors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 4.5vw;
+    height: 3.6vh;
+    margin-left: 2.5vw;
+}
+ 
+#linkAnchors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5vh;
+    width: 15vw;
+    font-size: 1.5vh;
+    margin-right: 4.5vw;
+}
+ 
+#topBanner {
+    width: 100vw;
+    display: flex;
+    background-color: #f5f5f5;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.topBA {
+    text-decoration: none;
+    color: black;
+}
+ 
+.topBA:hover {
+    color: lightgray;
+}
+ 
+.topBR {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 1vh;
+}
+ 
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+li {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+#helpContainer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    height: 3.5vh;
+}
+ 
+#dropDownMenu {
+    position: absolute;
+    font-size: 1.5vh;
+    top: 2.5vh;
+    right: 10vw;
+    height: 35vh;
+    width: 12vw;
+    background-color: white;
+    padding-left: 1vw;
+    display: none;
+    animation-name: helpContainerRevealDown;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+#helpDropDownTitle{
+    padding-top: 3vh;
+    font-size: 2vh;
+}
+ 
+.helpDropDownContents {
+    font-size: 1.5vh;
+    color: grey;
+}
+ 
+#mainHelpDropDownElements {
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+#mainLogo {
+    height: 2.5vh;
+    opacity: 100%;
+}
+ 
+#mainLogo:hover {
+    opacity: 0%;
+}
+ 
+
+#hoverLogo {
+    position: absolute;
+    top: 4.7vh;
+    left: 2.2vw;
+    height: 3.4vh;
+    margin: 0;
+    opacity: 0%;
+}
+ 
+#hoverLogo:hover {
+    opacity: 100%;
+}
+/*
+#mainLogo:hover {
+    display: none;
+}
+*/
+#mainLogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 9vw;
+}
+/*
+#mainLogoContainer:hover {
+    background: url("pictures/nikeLogoGrey.PNG") no-repeat;
+}
+*/
+#centerCatagories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    margin: auto;
+}
+ 
+.centerAnchor {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centerAnchorNew:hover {
+    border-bottom: 2px solid black;
+}
+
+#centerAnchorMen:hover {
+    border-bottom: 2px solid black;
+}
+
+#centerAnchorWomen:hover {
+    border-bottom: 2px solid black;
+}
+
+#centerAnchorKids:hover {
+    border-bottom: 2px solid black;
+}
+
+#centerAnchorSale:hover {
+    border-bottom: 2px solid black;
+}
+
+#newFeaturedDropDownContainer {
+    border: 0px;
+    background-color: white;
+    height: 0vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: blank;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#newFeaturedDropDownInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 60vw;
+    height: 0vh;
+    animation-name: blank;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+#catagoriesDropDowns {
+    position: absolute;
+    z-index: 2;
+}
+
+.NandFHeader {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    display: none;
+    width: 10vw;
+}
+
+.NandFMainText {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-size: 1.5vh;
+    display: none;
+    width: auto;
+}
+
+#menDropDownContainer {
+    width: 100vw;
+    height: 0vh;
+    top: 0vh;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blank;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#menDropDownInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 60vw;
+    height: 0vh;
+    animation-name: blank;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.menHeader {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    display: none;
+}
+
+.menMainText {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-size: 1.5vh;
+    display: none;
+}
+
+#womenDropDownContainer {
+    background-color: white;
+    width: 100vw;
+    height: 0vh;
+    top: 0vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blank;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#womenDropDownInnerContainer {
+    width: 60vw;
+    height: 0vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    animation-name: blank;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.womenHeader {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    display: none;
+}
+
+.womenMainText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+    color: grey;
+    display: none;
+}
+
+#kidsDropDownContainer {
+    width: 100vw;
+    height: 0vh;
+    position: absolute;
+    top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blank;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: white;
+}
+
+#kidsDropDownInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 60vw;
+    height: 0vh;
+    animation-name: blank;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.kidsHeader {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    animation-name: blank;
+    display: none;
+}
+
+.kidsMainText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+    color: grey;
+    display: none;
+}
+
+#saleDropDownContainer {
+    width: 100vw;
+    height: 0vh;
+    position: absolute;
+    top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blank;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: white;
+}
+
+#saleDropDownInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 60vw;
+    height: 0vh;
+    animation-name: blank;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.saleHeader {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    animation-name: blank;
+    display: none;
+}
+
+.saleMainText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+    color: grey;
+    display: none;
+}
+
+#magnifyingImgContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 4.3vh;
+    width: 2.5vw;
+    border-radius: 25px;
+}
+ 
+#magnifyingImgContainer:hover{
+    background-color: grey;
+}
+ 
+#magnifyingImg {
+    height: 2vh;
+}
+ 
+#searchBar {
+    background-color: #f5f5f5;
+    border: none;
+    height: 4vh;
+    width: 8vw;
+    padding-left: 2.5vw;
+    border-radius: 25px;
+}
+ 
+#searchBar::placeholder {
+    font-size: 1.7vh;
+    color: #e4e4e4;
+}
+ 
+#searchBar:hover{
+    background-color: gray;
+}
+ 
+#searchContainer {
+    width: 10.5vw;
+}
+ 
+#rightImagesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 5vw;
+}
+ 
+#heartImg {
+    height: 2.5vh;
+}
+ 
+#heartImgContainer {
+    padding-top: 0.7vh;
+    padding-bottom: 0.3vh;
+    padding-right: 0.3vw;
+    padding-left: 0.3vw;
+    border-radius: 25px;
+}
+ 
+#heartImgContainer:hover {
+    background-color: gray;
+}
+ 
+#bagImg {
+    height: 2.5vh;
+}
+ 
+#bagImgContainer {
+    padding-top: 0.7vh;
+    padding-bottom: 0.7vh;
+    padding-right: 0.4vw;
+    padding-left: 0.4vw;
+    border-radius: 25px;
+}
+ 
+#bagImgContainer:hover {
+    background-color: gray;
+}
+ 
+#rightImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 16vw;
+    margin: auto;
+}
+ 
+#secondBanner {
+    margin: 0px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+ 
+#thirdBanner {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+}
+ 
+#firstText {
+    animation-name: centerToLeft;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+ 
+#secondText {
+    animation-name: centerToRight;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-delay: -6s;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.scrollBannerTop {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.scrollBannerBottom {
+    margin: 0px;
+    padding: 0px
+}
+ 
+#fourthTitle {
+    font-family: 'Anton', sans-serif;
+    font-size: 7vh;
+    margin: 0px;
+}
+ 
+#fourthText {
+    font-family: 'Poppins', sans-serif;
+ 
+}
+ 
+.danceBtn {
+    color: white;
+    background-color: black;
+    border: none;
+    height: 4vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vh;
+    border-radius: 25px;
+}
+
+.danceBtn:hover {
+    background-color: grey;
+}
+ 
+#danceBtn1 {
+    width: 6.5vw;
+}
+ 
+#danceBtn2 {
+    width: 5.5vw;
+}
+ 
+#fourthBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+ 
+#fifthBanner {
+    background-color: aqua;
+    height: 90vh;
+    width: 100vw;
+}
+ 
+video {
+    object-fit: fill;
+}
+ 
+#sixthBanner {
+    height: 55vh;
+    width: 90vw;
+    position: relative;
+    margin-left: 4.5vw;
+    margin-top: 18vh; 
+    overflow: hidden;
+}
+/* Start of carousel css from video, some changes made to fit in my page. */
+#sixthBanner i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    height: 4vh;
+    width: 2vw;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translateY(50%);
+    top: 20vh;
+}
+ 
+#sixthBanner i:first-child {
+    left: 4vw;
+}
+ 
+#sixthBanner i:last-child {
+    right: 4vw;
+}
+ 
+#sixthBanner .carousel {
+    white-space: nowrap;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+ 
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+ 
+.carousel.dragging img {
+    pointer-events: none;
+}
+ 
+.carousel .carouselImage {
+    height: 50vh;
+    width: 25vw;
+    object-fit: cover;
+}
+ 
+.carouselImage {
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+}
+ 
+.carouselImage:first-child {
+    margin-left: 0vw;
+}
+/* end of css from carousel video */
+#firstImg {
+    background-color: aquamarine;
+    width: fit-content;
+}
+ 
+#secondImg {
+    background-color: aquamarine;
+    width: fit-content;
+}
+ 
+#thirdImg {
+    background-color: aquamarine;
+    width: fit-content;
+}
+ 
+.bothBtns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15vw;
+    z-index: 2;
+    position: relative;
+    left: 3vw;
+    bottom: 60px;
+}
+ 
+.shopLook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+.shopText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    border: none;
+    height: 5vh;
+    width: 10vw;
+    background-color: white;
+    padding-left: 0.1vw;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-right: 1vw;
+    margin: 0px;
+}
+ 
+.eyeImg {
+    padding: 1.25vh;
+    padding-right: 0.2vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    margin: 0px;
+    height: 2vh;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: white;
+}
+
+#seventhBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+}
+
+ 
+.soloBtn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vh;
+    border: none;
+    background-color: white;
+    height: 5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 25px;
+    margin-right: 0.5vw;
+}
+
+.soloBtn:hover {
+    background-color: gray;
+}
+
+#secondImg {
+    background-color: black;
+}
+
+.seventhBannerImg {
+    height: 65vh;
+}
+
+.seventhContainers {
+    height: 65vh;
+}
+
+#eighthBanner {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    height: 40vh;
+    animation-name: blank;  
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#eighthInnerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
+    width: 60vw;
+}
+
+.hiddenItems {
+    display: none;
+}
+
+#ninthBanner {
+    position: relative;
+    background-color: black;
+    display: grid;
+    height: 45vh;
+}
+
+#ninthMainLinksContainer {
+    position: absolute;
+    top: 3vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 30vh;
+    width: 70vw;
+    padding-left: 3vw;
+}
+
+.ninthHeader {
+    font-family: 'Anton', sans-serif;
+    color: #f5f5f5;
+    font-size: 1.45vh;
+}
+
+.ninthBodyText {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-size: 1.3vh;
+}
+
+.ninthBodyText:hover {
+    color: white;
+}
+
+#twitterLogoNinth {
+    height: 2.5vh;
+    padding: 1vh;
+    padding-top: 1.5vh;
+}
+#fbookLogoNinth {
+    height: 2.5vh;
+    padding: 1.2vh;
+    padding-right: 1vw;
+    padding-left: 1vw;   
+}
+
+#ytubeLogoNinth {
+    height: 2.5vh;
+    padding: 1.2vh;
+    padding-right: 0.9vw;
+    padding-left: 0.9vw;
+}
+
+#instaLogoNinth {
+    height: 2.5vh;
+    padding: 1.2vh;
+}
+
+.imgLinksNinth {
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.imgLinksNinth:hover {
+    background-color: #f5f5f5;
+}
+
+#imgLinksNinthContainer {
+    position: absolute;
+    top: 3vh;
+    right: 3vw;
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#termsAndConditionsContainer {
+    position: absolute;
+    bottom: 0px;
+    right: 3vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 49vw;
+}
+
+.tAndC {
+    width: 10vw;
+}
+
+#movedBottomRightItem1 {
+    grid-column-start: 4;
+}
+
+#movedBottomRightItem2 {
+    grid-column-start: 5;
+}
+
+#guidesPopup {
+    height: 2vh;
+    width: 4vw;
+}
+
+#guidesPopupContainer {
+    display: none;
+    position: absolute;
+    width: 49vw;
+    background-color: black;
+    border: 2px solid white;
+    padding: 3vh;
+    bottom: 5vh;
+    right: 0vw;
+}
+
+#guidesPopupInnerContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 35vw;
+}
+
+.guidePopupText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vh;
+    color: grey;
+}
+
+#locationPinImg {
+    height: 2vh;
+    color: white;
+}
+
+#leftHandSideLocationContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8vw;
+}
+
+#locationText {
+    font-size: 1.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#locationNinthContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: grey;
+    width: 24vw;
+    bottom: 0px;
+    left: 3vw;
+}
+
+#copyrightText {
+    font-size: 1.5vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
