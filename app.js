@@ -1,3 +1,4 @@
+// Code for carousel, some changes to accomodate my page
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0];
 arrowIcons = document.querySelectorAll(".sixthBanner i")
@@ -42,10 +43,8 @@ carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("touchmove", dragging);
  
 carousel.addEventListener("mouseup", dragStop);
- 
+// end of carousel video code (source link in html)
 
-//bit at 17:36 in vid on targeting specific pictures, could be useful for showing what image number it is and shjowing the bottom text below it
-//maybe add small text below image which describes it check nike website for reference
 
 const hoverChangeBoth1 = document.querySelectorAll(".seventhHoverChange1");
 const eyeBtn1 = document.querySelector(".seventhHoverBtnEye1");
@@ -121,7 +120,7 @@ magnifier.addEventListener("mouseover", function(){
 magnifier.addEventListener("mouseout", function(){
     magnifier.style.backgroundColor = "#f5f5f5";
 });
-//put the const in here later if this code stops working probably just have to remove the const from each of the three
+
 const firstDropDown = document.getElementById("firstDropDown");
 const firstDropDownBody = document.getElementById("dropDownMenu");
 const helpContainer = document.getElementById("helpContainer");
@@ -161,7 +160,7 @@ innerContainer.addEventListener("mouseenter", function(){
             column.style.display = "block";
         })
     }, 1000)
-    innerContainer.style.height = "65vh"; //set so when container starts moving to stayin middle of animation it is big enough that mouse does not leave the container
+    innerContainer.style.height = "65vh"; //set so when container starts moving to staying middle of animation it is big enough that mouse does not leave the container
     setTimeout(function(){ //done so that container is never bigger than its parent container
         innerContainer.style.height = "130vh";
     }, 500)
